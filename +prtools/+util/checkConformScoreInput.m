@@ -1,6 +1,6 @@
 function [probDists,measurements] = checkConformScoreInput(probDists,measurements)
-%UNTITLED3 Summary of this function goes here
-%   Detailed explanation goes here
+%checkConformScoreInput Function that validates the input for score
+%computation.
 
     % conform dimensions
     probDists = reshape(probDists,numel(probDists),1);

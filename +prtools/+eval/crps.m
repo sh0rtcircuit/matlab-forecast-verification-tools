@@ -2,8 +2,9 @@ function [ meanCrps, singleCrps ] = crps( probDists, measurements ,varargin)
 %crps Compute the Continuous ranked probability score.
 %   INPUT:
 %       probDists: N x 1 cell array with probability density class function
-%           supports the distributions of https://de.mathworks.com/help/stats/makedist.html
-%       measurements: N x 1 vector with "true" measurements
+%           supports the <a
+%           href="matlab:web('https://de.mathworks.com/help/stats/makedist.html')">Matlab distributions</a>.
+%       measurements: N x 1 vector with "true" measurements.
 %   OUTPUT:
 %       meanCrps: The mean CRPS over all evaluated prob density and meas.
 %           pairs
